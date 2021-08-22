@@ -99,19 +99,17 @@ export class CylinderComponent implements OnInit {
   }
 
   private sortByTypeHeightAndDiam(): void {
-    this.cylinders.sort((a, b) => {
-      if (b.type !== a.type) {
-        return -1
-      }
-      if (this.filters.length) {
-        this.cylinders.sort(this.sortByLengthAndDiam);
-      } else if (this.filters.height) {
-        this.cylinders.sort(this.sortByHeightAndDiam);
-      } else if (this.filters.diameter) {
-        this.cylinders.sort(this.sortByDiameterLengthAndheight);
-      }
-      return 0;
-    })
+    // if (this.filters.type !== 'All') {
+    //   this.cylinders.sort((a, b) => b.type < a.type ? -1 : 1);
+    // }
+    if (this.filters.length) {
+      this.cylinders.sort(this.sortByLengthAndDiam);
+    } else {
+      this.cylinders.sort(this.sortByHeightAndDiam);
+    }
+    if (this.filters.diameter) {
+      this.cylinders.sort(this.sortByDiameterLengthAndheight);
+    }
   }
 
   fetchCylinders(): void {
