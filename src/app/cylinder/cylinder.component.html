@@ -1,0 +1,47 @@
+<form>
+  <div class="form-group form-inline row">
+    <div class="col-2 padding-lr-10">
+      <span class="input-title">Max Height:</span>
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-primary" id="cylinderType" ngbDropdownToggle>{{filters.type}}</button>
+        <div class="dropdown-menu" aria-labelledby="cylinderType" ngbDropdownMenu>
+            <button class="dropdown-item"
+                    *ngFor="let item of cylinderTypes"
+                    (click)="selectType(item)"
+            >{{item}}</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 padding-lr-10">
+      <span class="input-title">Max Height:</span>
+      <input class="form-control" type="number" [formControl]="maxHeightFilter"/>
+    </div>
+    <div class="col-2 padding-lr-10">
+      <span class="input-title">Max Diameter:</span>
+      <input class="form-control" type="number" [formControl]="maxDiameterFilter"/>
+    </div>
+  </div>
+</form>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">Code</th>
+    <th scope="col">Type</th>
+    <th scope="col">Description</th>
+    <th scope="col">Length</th>
+    <th scope="col">Height</th>
+    <th scope="col">Diameter</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let cylinder of cylinders; index as i">
+    <td>{{cylinder.code}}</td>
+    <td>{{cylinder.type}}</td>
+    <td>{{cylinder.description}}</td>
+    <td>{{cylinder.length || '------------'}}</td>
+    <td>{{cylinder.height || '------------'}}</td>
+    <td>{{cylinder.diameter}}</td>
+  </tr>
+  </tbody>
+</table>
