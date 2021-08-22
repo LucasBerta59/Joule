@@ -1,0 +1,1002 @@
+{
+  "direct": [
+    {
+      "code": "TCIMVD-0125LFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "125L Cyclone Direct",
+      "height": 925,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVD-0150LFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "150L Cyclone Direct",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVD-0170LFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "170L Cyclone Direct",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVD-0200NFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "200L Cyclone Direct",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVD-0250NFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "250L Cyclone Direct",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVD-0300NFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "300L Cyclone Direct",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVD-0400LFD",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "400L Cyclone Direct",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMVD-0500LFC",
+      "type": "Direct",
+      "coil": "No coil",
+      "description": "500L Cyclone Direct",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Direct Wellmaster": [
+    {
+      "code": "TCIWVD-0200NFC",
+      "type": "Direct Wellmaster",
+      "coil": "No coil",
+      "description": "200L Cyclone Direct Wellmaster",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVD-0250NFC",
+      "type": "Direct Wellmaster",
+      "coil": "No coil",
+      "description": "250L Cyclone Direct Wellmaster",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVD-0300NFC",
+      "type": "Direct Wellmaster",
+      "coil": "No coil",
+      "description": "300L Cyclone Direct Wellmaster",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVD-0500NFC",
+      "type": "Direct Wellmaster",
+      "coil": "No coil",
+      "description": "500L Cyclone Direct Wellmaster",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Direct Solar": [
+    {
+      "code": "TCIMVE-0150NFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "150L Cyclone Direct Solar",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVE-0170NFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "170L Cyclone Direct Solar",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVE-0200NFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "200L Cyclone Direct Solar",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVE-0250NFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "250L Cyclone Direct Solar",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVE-0300NFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "300L Cyclone Direct Solar",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVE-0400LFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "400L Cyclone Direct Solar",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMVE-0500LFD",
+      "type": "Direct Solar",
+      "coil": "No Coil",
+      "description": "500L Cyclone Direct Solar",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Direct Solar Wellmaster": [
+    {
+      "code": "TCIWVE-0500LFC",
+      "type": "Direct Solar Wellmaster",
+      "coil": "No Coil",
+      "description": "500L Cyclone Direct Solar Wellmaster",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Slimline Direct": [
+    {
+      "code": "TCIMVD-0100SFD",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "100L Cyclone Slimline Direct",
+      "height": 925,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0125SFD",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "120L Cyclone Slimline Direct",
+      "height": 1085,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0150SFD",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "150L Cyclone Slimline Direct",
+      "height": 1335,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0170SFD",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "170L Cyclone Slimline Direct",
+      "height": 1535,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0200SFD",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "200L Cyclone Slimline Direct",
+      "height": 1880,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0230LFC",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "230L Cyclone Slimline Direct",
+      "height": 2000,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVD-0300LFC",
+      "type": "Slimline Direct",
+      "coil": "No Coil",
+      "description": "300L Cyclone Slimline Direct",
+      "height": 2000,
+      "diameter": 500
+    }
+  ],
+  "Slimline Direct Wellmaster": [
+    {
+      "code": "TCIWVD-0205SFD",
+      "type": "Slimline Direct Wellmaster",
+      "coil": "No Coil",
+      "description": "200L Cyclone Wellmaster Slimline Direct",
+      "height": 1880,
+      "diameter": 450
+    }
+  ],
+  "Indirect": [
+    {
+      "code": "TCIMVI-0125LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "125L Cyclone Indirect",
+      "height": 925,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVI-0150LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Indirect",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVI-0170LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Indirect",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVI-0200NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Indirect",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVI-0250NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "250L Cyclone Indirect",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVI-0300NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Indirect",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVI-0400LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "400L Cyclone Indirect",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMVI-0500LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "500L Cyclone Indirect",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Indirect Wellmaster": [
+    {
+      "code": "TCWMVI-0150LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Indirect Wellmaster",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCWMVI-0200NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Indirect Wellmaster",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCWMVI-0250NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "250L Cyclone Indirect Wellmaster",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCWMVI-0300NFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Indirect Wellmaster",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCWMVI-0400LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "400L Cyclone Indirect Wellmaster",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCWMVI-0500LFC",
+      "type": "Indirect",
+      "coil": "Single Coil",
+      "description": "500L Cyclone Indirect Wellmaster",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Slimline Indirect": [
+    {
+      "code": "TCIMVI-0100SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "100L Cyclone Slimline Indirect",
+      "height": 925,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0125SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "120L Cyclone Slimline Indirect",
+      "height": 1085,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0150SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Slimline Indirect",
+      "height": 1335,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0170SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Slimline Indirect",
+      "height": 1535,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0200SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Slimline Indirect",
+      "height": 1880,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0230LFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "230L Cyclone Slimline Indirect",
+      "height": 2000,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0300SFC",
+      "type": "Slimline Indirect",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Slimline Indirect",
+      "height": 2000,
+      "diameter": 500
+    }
+  ],
+  "Slimline Indirect Wellmaster": [
+    {
+      "code": "TCIMVI-0100SFC",
+      "type": "Slimline Indirect Wellmaster",
+      "coil": "Single Coil",
+      "description": "100L Cyclone Slimline Wellmaster Indirect",
+      "height": 925,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0170SFC",
+      "type": "Slimline Indirect Wellmaster",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Slimline Wellmaster Indirect",
+      "height": 1535,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVI-0200SFC",
+      "type": "Slimline Indirect Wellmaster",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Slimline Wellmaster Indirect",
+      "height": 1880,
+      "diameter": 450
+    }
+  ],
+  "Twin Solar": [
+    {
+      "code": "TCIMVS-0150LFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "150L Cyclone Twin Solar",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVS-0170LFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "170L Cyclone Twin Solar",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMVS-0200NFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "200L Cyclone Twin Solar",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVS-0250NFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "250L Cyclone Twin Solar",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVS-0300NFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "300L Cyclone Twin Solar",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMVS-0400LFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "400L Cyclone Twin Solar",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMVS-0500LFC",
+      "type": "Twin Solar",
+      "coil": "Twin Coil",
+      "description": "500L Cyclone Twin Solar",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Twin Solar Wellmaster": [
+    {
+      "code": "TCIWVS-0150LFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "150L Cyclone Twin Solar Wellmaster",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIWVS-0170LFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "170L Cyclone Twin Solar Wellmaster",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIWVS-0200NFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "200L Cyclone Twin Solar Wellmaster",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVS-0250NFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "250L Cyclone Twin Solar Wellmaster",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVS-0300NFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "300L Cyclone Twin Solar Wellmaster",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWVS-0400LFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "400L Cyclone Twin Solar Wellmaster",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIWVS-0500LFC",
+      "type": "Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "500L Cyclone Twin Solar Wellmaster",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Slimline Twin Solar": [
+    {
+      "code": "TCIMVS-0150SFC",
+      "type": "Slimline Twin Solar",
+      "coil": "Twin Coil",
+      "description": "150L Cyclone Slimline Twin",
+      "height": 1335,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVS-0170SFC",
+      "type": "Slimline Twin Solar",
+      "coil": "Twin Coil",
+      "description": "170L Cyclone Slimline Twin",
+      "height": 1535,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVS-0200SFC",
+      "type": "Slimline Twin Solar",
+      "coil": "Twin Coil",
+      "description": "200L Cyclone Slimline Twin",
+      "height": 1880,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVS-0230SFC",
+      "type": "Slimline Twin Solar",
+      "coil": "Twin Coil",
+      "description": "230L Cyclone Slimline Twin",
+      "height": 2000,
+      "diameter": 450
+    },
+    {
+      "code": "TCIMVS-0300LFC",
+      "type": "Slimline Twin Solar",
+      "coil": "Twin Coil",
+      "description": "300L Cyclone Slimline Twin",
+      "height": 2000,
+      "diameter": 500
+    }
+  ],
+  "Slimline Twin Solar Wellmaster": [
+    {
+      "code": "TCIWVS-0300LFC",
+      "type": "Slimline Twin Solar Wellmaster",
+      "coil": "Twin Coil",
+      "description": "300L Cyclone Slimline Wellmaster Twin",
+      "height": 2000,
+      "diameter": 500
+    }
+  ],
+  "Triple Coil": [
+    {
+      "code": "TCIMV3-0150LFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "150L Cyclone Triple Coil",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMV3-0170LFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "170L Cyclone Triple Coil",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMV3-0200NFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "200L Cyclone Triple Coil",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMV3-0250NFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "250L Cyclone Triple Coil",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMV3-0300NFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "300L Cyclone Triple Coil",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMV3-0400LFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "400L Cyclone Triple Coil",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMV3-0500LFC",
+      "type": "Triple Coil",
+      "coil": "Triple Coil",
+      "description": "500L Cyclone Triple Coil",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Triple Wellmaster": [
+    {
+      "code": "TCIWV3-0200NFC",
+      "type": "Triple Wellmaster",
+      "coil": "Triple Coil",
+      "description": "200L Cyclone Triple Wellmaster",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWV3-0250NFC",
+      "type": "Triple Wellmaster",
+      "coil": "Triple Coil",
+      "description": "250L Cyclone Triple Wellmaster",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWV3-0300NFC",
+      "type": "Triple Wellmaster",
+      "coil": "Triple Coil",
+      "description": "300L Cyclone Triple Wellmaster",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIWV3-0400LFC",
+      "type": "Triple Wellmaster",
+      "coil": "Triple Coil",
+      "description": "400L Cyclone Triple Wellmaster",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIWV3-0500LFC",
+      "type": "Triple Wellmaster",
+      "coil": "Triple Coil",
+      "description": "500L Cyclone Triple Wellmaster",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "High Gain Indirect": [
+    {
+      "code": "TCIMVH-0150LFB",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Indirect High Gain",
+      "height": 1190,
+      "diameter": 540
+    },
+    {
+      "code": "TCIMVH-0170LFB",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Indirect High Gain",
+      "height": 1310,
+      "diameter": 540
+    },
+    {
+      "code": "TCIMVH-0200NFC",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Indirect High Gain",
+      "height": 1150,
+      "diameter": 600
+    },
+    {
+      "code": "TCIMVH-0250LFC",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "250L Cyclone Indirect High Gain",
+      "height": 1815,
+      "diameter": 540
+    },
+    {
+      "code": "TCIMVH-0300NFC",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Indirect High Gain",
+      "height": 1600,
+      "diameter": 600
+    },
+    {
+      "code": "TCIMVH-0400LFC",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "400L Cyclone Indirect High Gain",
+      "height": 1570,
+      "diameter": 710
+    },
+    {
+      "code": "TCIMVH-0500NFC",
+      "type": "High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "500L Cyclone Indirect High Gain",
+      "height": 1900,
+      "diameter": 710
+    }
+  ],
+  "High Gain Solar": [
+    {
+      "code": "TCIMVG-0200LFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "200L Cyclone High Gain Solar",
+      "height": 1490,
+      "diameter": 540
+    },
+    {
+      "code": "TCIMVG-0250LFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "250L Cyclone High Gain Solar",
+      "height": 1815,
+      "diameter": 540
+    },
+    {
+      "code": "TCIMVG-0250NFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "250L Cyclone High Gain Solar Short C",
+      "height": 1400,
+      "diameter": 600
+    },
+    {
+      "code": "TCIMVG-0300NFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "300L Cyclone High Gain Solar",
+      "height": 1600,
+      "diameter": 600
+    },
+    {
+      "code": "TCIMVG-0400LFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "400L Cyclone High Gain Solar",
+      "height": 1570,
+      "diameter": 710
+    },
+    {
+      "code": "TCIMVG-0500NFC",
+      "type": "High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "500L Cyclone High Gain Solar",
+      "height": 1900,
+      "diameter": 710
+    }
+  ],
+  "Slim High Gain Indirect": [
+    {
+      "code": "TCIMVH-0150SFB",
+      "type": "Slim High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Slim High Gain Indirect",
+      "height": 1335,
+      "diameter": 475
+    },
+    {
+      "code": "TCIMVH-0170SFB",
+      "type": "Slim High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Slim High Gain Indirect",
+      "height": 1535,
+      "diameter": 475
+    },
+    {
+      "code": "TCIMVH-0200SFC",
+      "type": "Slim High Gain Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Slim High Gain Indirect",
+      "height": 1880,
+      "diameter": 475
+    }
+  ],
+  "Slim High Gain Solar": [
+    {
+      "code": "TCIMVG-0170SFC",
+      "type": "Slim High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "170L Cyclone Slim High Gain Solar",
+      "height": 1535,
+      "diameter": 475
+    },
+    {
+      "code": "TCIMVG-0200SFC",
+      "type": "Slim High Gain Solar",
+      "coil": "Twin Coil",
+      "description": "200L Cyclone Slim High Gain Solar",
+      "height": 1880,
+      "diameter": 475
+    }
+  ],
+  "Horizontal Indirect": [
+    {
+      "code": "TCIMHI-0125LFB",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "125L Cyclone Horizontal Indirect",
+      "height": 925,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMHI-0150LFB",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "150L Cyclone Horizontal Indirect",
+      "height": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMHI-0170LFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "170L Cyclone Horizontal Indirect",
+      "height": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMHI-0200NFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "200L Cyclone Horizontal Indirect",
+      "height": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHI-0250NFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "250L Cyclone Horizontal Indirect",
+      "height": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHI-0300NFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Horizontal Indirect",
+      "height": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHI-0400LFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "400L Cyclone Horizontal Indirect",
+      "height": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMHI-0500LFC",
+      "type": "Horizontal Indirect",
+      "coil": "Single Coil",
+      "description": "500L Cyclone Horizontal Indirect",
+      "height": 1880,
+      "diameter": 660
+    }
+  ],
+  "Horizontal Indirect Wellmaster": [
+    {
+      "code": "TCIMHW-0300NFC",
+      "type": "Horizontal Indirect Wellmaster",
+      "coil": "Single Coil",
+      "description": "300L Cyclone Horizontal Indirect Wellmaster",
+      "length": 1535,
+      "diameter": 560
+    }
+  ],
+  "Horizontal Direct": [
+    {
+      "code": "TCIMHD-0150LFD",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "150L Cyclone Horizontal Direct",
+      "length": 1085,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMHD-0170LFC",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "170L Cyclone Horizontal Direct",
+      "length": 1205,
+      "diameter": 500
+    },
+    {
+      "code": "TCIMHD-0200NFD",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "200L Cyclone Horizontal Direct",
+      "length": 1085,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHD-0250NFC",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "250L Cyclone Horizontal Direct",
+      "length": 1335,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHD-0300LFD",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "300L Cyclone Horizontal Direct",
+      "length": 1535,
+      "diameter": 560
+    },
+    {
+      "code": "TCIMHD-0400LFD",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "400L Cyclone Horizontal Direct",
+      "length": 1535,
+      "diameter": 660
+    },
+    {
+      "code": "TCIMHD-0500LFD",
+      "type": "Horizontal Direct",
+      "coil": "No Coil",
+      "description": "500L Cyclone Horizontal Direct",
+      "length": 1880,
+      "diameter": 660
+    }
+  ],
+  "Horizontal Direct Wellmaster": [
+    {
+      "code": "TCIWVI-0250NFC",
+      "type": "Horizontal Direct Wellmaster",
+      "coil": "No Coil",
+      "description": "250L Cyclone Horizontal Direct Wellmaster",
+      "length": 1335,
+      "diameter": 560
+    }
+  ]
+}
