@@ -12,15 +12,17 @@ import { CylinderService } from './cylinder.service';
 })
 export class CylinderComponent implements OnInit {
   private allCylinders: Cylinder[] = [];
-  filters = { height: NaN, diameter: NaN, type: 'All' };
+  filters = { length: NaN, height: NaN, diameter: NaN, type: 'All' };
   maxHeightFilter = new FormControl('');
   maxDiameterFilter = new FormControl('');
+  maxLengthFilter = new FormControl('');
   cylinders: Cylinder[] = [];
   cylinderTypes: string[] = ['All'];
 
   constructor(private cylinderService: CylinderService) {
     this.maxHeightFilter.valueChanges.pipe(debounceTime(300)).subscribe(height => this.changeHeightFilter(parseInt(height)));
     this.maxDiameterFilter.valueChanges.pipe(debounceTime(300)).subscribe(diameter => this.changeDiameterFilter(parseInt(diameter)));
+    this.maxLengthFilter.valueChanges.pipe(debounceTime(300)).subscribe(diameter => this.changeLengthFilter(parseInt(diameter)));
   }
 
   ngOnInit(): void {
@@ -37,6 +39,11 @@ export class CylinderComponent implements OnInit {
     this.search();
   }
 
+  private changeLengthFilter(length: number): void {
+    this.filters.length = length;
+    this.search();
+  }
+
   private changeTypeFilter(type: string): void {
     this.filters.type = type;
     this.search();
@@ -44,6 +51,7 @@ export class CylinderComponent implements OnInit {
 
   private search(): any {
     const type = this.filters.type;
+    const length = this.filters.length;
     const height = this.filters.height;
     const diam = this.filters.diameter;
     if (!height && !diam && !type) {
@@ -52,6 +60,7 @@ export class CylinderComponent implements OnInit {
     }
     this.cylinders = this.allCylinders
       .filter(item => type === 'All' ? true : item.type.toLowerCase() === type.toLowerCase())
+      .filter(item => !length || item.length <= length)
       .filter(item => !height || item.height <= height)
       .filter(item => !diam || item.diameter <= diam);
 
@@ -59,22 +68,34 @@ export class CylinderComponent implements OnInit {
   }
 
   private sort(): void {
-    if (this.filters.height) {
+    if (this.filters.length) {
+      this.cylinders.sort(this.sortByLengthAndDiam);
+    } else if (this.filters.height) {
       this.cylinders.sort(this.sortByHeightAndDiam);
     } else if (this.filters.diameter) {
-      this.cylinders.sort(this.sortByDiameterAndheight);
+      this.cylinders.sort(this.sortByDiameterLengthAndheight);
     }
     if (this.filters.type !== 'All') {
       this.sortByTypeHeightAndDiam();
     }
   }
 
+  private sortByLengthAndDiam(a: Cylinder, b: Cylinder): number {
+    return b.length != a.length ? b.length - a.length : b.diameter - a.diameter;
+  }
+
   private sortByHeightAndDiam(a: Cylinder, b: Cylinder): number {
     return b.height != a.height ? b.height - a.height : b.diameter - a.diameter;
   }
 
-  private sortByDiameterAndheight(a: Cylinder, b: Cylinder): number {
-    return b.diameter != a.diameter ? b.diameter - a.diameter : b.height - a.height;
+  private sortByDiameterLengthAndheight(a: Cylinder, b: Cylinder): number {
+    if (b.diameter != a.diameter) {
+      return b.diameter - a.diameter;
+    }
+    if (b.length) {
+      return b.length - a.length;
+    }
+    return b.height - a.height;
   }
 
   private sortByTypeHeightAndDiam(): void {
@@ -82,10 +103,12 @@ export class CylinderComponent implements OnInit {
       if (b.type !== a.type) {
         return -1
       }
-      if (this.filters.height) {
+      if (this.filters.length) {
+        this.cylinders.sort(this.sortByLengthAndDiam);
+      } else if (this.filters.height) {
         this.cylinders.sort(this.sortByHeightAndDiam);
       } else if (this.filters.diameter) {
-        this.cylinders.sort(this.sortByDiameterAndheight);
+        this.cylinders.sort(this.sortByDiameterLengthAndheight);
       }
       return 0;
     })
